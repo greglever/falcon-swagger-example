@@ -1,0 +1,30 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "0.0.1",
+    "description": "",
+    "title": "API title"
+  },
+  "host": "",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "consumes": [
+    "application/json",
+    "application/x-www-form-urlencoded",
+    "multipart/form-data"
+  ],
+  "paths": {
+    "/things": {
+      "get": {
+        "summary": "Handles GET requests"
+      }
+    }
+  },
+  "definitions": {},
+  "securityDefinitions": {}
+}
